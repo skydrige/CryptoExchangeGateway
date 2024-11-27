@@ -1,75 +1,69 @@
-# Getting Started with Create React App
+# Crypto Exchange Gateway: Blockchain-Based Token Conversion Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+This project introduces a **blockchain-powered crypto exchange gateway** that allows users to seamlessly exchange popular cryptocurrencies like **Bitcoin (BTC)** and **Ethereum (ETH)** into a custom token. These tokens can then be used to purchase products on our platform, offering a secure, private, and user-friendly shopping experience.
 
-This is a project that has InAppCreditSystem smart contract having functions Login, Register and UpdateCredits.
-1. Register: This function is used to register a new user with the system. It takes the user's name, password as input and stores the user as key and password as value in the mapping and also stores the user's credits as 0 in format of {user: [password, credits]} in blockchain.
-2. Login: This function is used to login a user with the system. It takes the user's name, password as input and checks if the user is registered or not. If the user is registered, it returns the user's credits which is in Dashboard.
-3. UpdateCredits: This function is used to update the user's credits when user press BuyCredits in Frontend it takes the value of credits and validate the credits in form of ETH like [1 credit = 0.05 ETH] and triggers the metamask to pay the amount and update the user's credits in blockchain.
+---
 
-## Available Scripts
+## Features
+### 1. **Crypto Conversion**
+   - Exchange **Bitcoin** or **Ethereum** into our **custom cryptocurrency**.
+   - Pegged exchange rates ensure consistency (e.g., 1 Custom Coin = 0.02 ETH).
 
-In the project directory, you can run:
+### 2. **Secure Transactions**
+   - Powered by blockchain technology, providing transparency, immutability, and decentralized security.
+   - Ensures privacy by avoiding third-party involvement in transactions.
 
-### `npm start`
+### 3. **Exclusive Ecosystem**
+   - Use the custom cryptocurrency as the only accepted payment method for products on the platform.
+   - Simplifies the purchasing process for crypto holders, offering a real-world utility for their assets.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 4. **Dynamic Value Growth**
+   - The custom cryptocurrency is pegged to ETH, allowing it to grow proportionally with ETH's market value.
+   - A demand-driven model ensures increased token value as transaction volume rises on the platform.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Objectives
+- To **bridge the gap** between cryptocurrencies and real-world utility.
+- To provide a **secure and decentralized** platform for product purchases.
+- To create **value growth** for the custom cryptocurrency by driving adoption and demand.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## How It Works
+1. **Token Conversion:**
+   - Users convert BTC or ETH into the custom token using the exchange gateway.
+   - Conversion rates are pegged to the real-time market value of ETH.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Purchase Products:**
+   - Use the custom token to buy products directly from the platform.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Value Dynamics:**
+   - As ETH’s value increases, the pegged token value rises proportionally.
+   - Increased transaction volume drives demand, enhancing the token's scarcity and value over time.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## Token Economics
+### Initial Pricing:
+   - **1 Custom Coin = 0.02 ETH**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Growth Example:
+   - If 1 ETH = $1,500, then **1 Custom Coin = $30**.
+   - If ETH’s value increases by 10% (to $1,650), **1 Custom Coin = $33**, reflecting the proportional growth.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Technology Stack
+1. **Blockchain Technology:**
+   - Built on **Ethereum**, leveraging its smart contract capabilities.
+2. **Smart Contracts:**
+   - Ensure secure and transparent token creation, transfer, and pegging mechanisms.
+3. **Programming Languages:**
+   - **Solidity** for smart contracts.
+   - **JavaScript/TypeScript** for the web application.
+4. **Crypto Wallet Integration:**
+   - Supports wallets like **Metamask** for seamless transactions.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
